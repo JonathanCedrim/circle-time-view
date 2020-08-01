@@ -624,6 +624,7 @@ public class CircleTimeView extends View {
             mStarted = false;
             if (mCircleTimerListener != null) {
                 mCircleTimerListener.onTimerStop();
+                mCurrentTimeMode = MODE_MANUAL_SETUP;
             }
             mTimer = null;
             mDefaultTimerTask = null;
