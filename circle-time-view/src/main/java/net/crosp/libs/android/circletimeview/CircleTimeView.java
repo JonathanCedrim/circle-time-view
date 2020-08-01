@@ -203,6 +203,7 @@ public class CircleTimeView extends View {
                 } else {
                     stopTimer();
                     mCircleTimerLister.onTimeEnd();
+                    mCurrentTimeMode = MODE_MANUAL_SETUP;
                 }
                 // Invert the show time colon flag
                 mShowTimeColon = !mShowTimeColon;
