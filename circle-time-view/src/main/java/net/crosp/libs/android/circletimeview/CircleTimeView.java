@@ -278,6 +278,15 @@ public class CircleTimeView extends View {
          */
         void onTimerTimeValueChanged(long time);
 
+        
+        /**
+        * send event when time end
+        *
+        * @param time end time
+        * /
+        void onTimerEnd();
+
+
     }
     // Listener interface
 
